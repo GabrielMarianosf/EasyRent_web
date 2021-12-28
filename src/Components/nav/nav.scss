@@ -1,0 +1,39 @@
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .img-logo {
+    width: 110px;
+
+    &:hover {
+      width: 112px;
+    }
+  }
+
+  .logo {
+    margin-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .container-cad {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 35px;
+  }
+
+  .button-primary {
+    color: white;
+    border: none;
+    background-color: #0b8eb7;
+    border-radius: 8px;
+    padding: 9px 24px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #075f7a;
+    }
+  }
+}
